@@ -1,10 +1,11 @@
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/App.scss'
+import LayoutManager from "./Components/Layout/LayoutManager";
 
 const App =() => {
   return (
-    <div className="App">
-      <h1>jaozum</h1>
-    </div>
+      <LayoutManager/>
   );
 }
 
